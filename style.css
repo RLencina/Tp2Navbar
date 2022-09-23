@@ -9,18 +9,18 @@
 }
 
 header{
-    background: #000;
+    background: linear-gradient(to left, #DD5E89, #F7BB97);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height:78px;
     padding: 0px 30px 0px 30px;
     position: fixed;
     top: 0;
 }
 .logo {
-    height: 100%;
+    height: 120%;
 }
 .navbar, .navbar-list {
     display: flex;
@@ -37,13 +37,13 @@ header{
 }
 
 .navbar-list a{
-    color: rgb(242, 131, 160);
+    color: rgb(255, 253, 253);
     font-size: 14px;
     
 }
 
 .carrito{
-    border: 0.5px solid crimson;
+    border: 0.5px solid rgb(255, 255, 255);
     padding: 5px 10px;
     margin-top: 3px;
     border-radius: 10px;
@@ -51,6 +51,94 @@ header{
     font-weight: 600;
     cursor: pointer;
    
-   
 }
 
+main {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+
+}
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero-text h1 {
+    font-size: 34px;
+    width: 80%;
+    min-width: 500px;
+    font: 800px;
+    color: black;
+}
+.hero-text p{
+    font-size: 14px;
+    width: 70%;
+    color: grey;
+}
+.hero-text p > span {
+    font-weight: 800;
+}
+.hero-text a {
+    color: white;
+    background-color: black;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.hero-img {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.hero-img img {
+    width: 150%;
+  
+}
+#info-p {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-pers {
+    color: white;
+    width: 700px;
+    padding: 16px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+.info-pers h2 {
+    font-size: 20px;
+    width: 40%;
+    min-width: 300px;
+    font: 600px;
+    color: black;
+    
+}
+.info-pers p {
+    font-weight: 300;
+}
