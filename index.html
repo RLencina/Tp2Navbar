@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueris.css">
+   
 </head>
 <body>
     <header>
-        <img src="./img/logo ind.png" alt="Logo de RL Indumentaria" class="logo">
+        <img src="./img/logo (1).png" alt="Logo de RL Indumentaria" class="logo">
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./img/menu.png" alt="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
@@ -19,8 +25,8 @@
                 <li><a href="#">Contacto</a></li>   
 
             </ul>
-        <img src="./img/carrito-de-compras--.webp" alt="Carrito de Compras" class="carrito">
-        </nav>
+         <img src="./img/carrito-de-compras--.webp" alt="Carrito de Compras" class="carrito">
+      </nav>
     </header>
     <main>
         <section id="hero">
@@ -38,6 +44,7 @@
         </div>
         </section>
         <section id="info-p">
+            
             <div class="info-pers">
            <h2>SOBRE NOSOTROS</h2>
            <p> Somos una tienda de indumentaria deportiva, enfocada en el diseño y la calidad, para equipar a todo deportista y potenciar su rendimiento.
@@ -45,6 +52,63 @@
            </p>
             </div>
         </section>
+        <section id="info">
+            <h2>Información Importante</h2>
+            <div class="info-cards">
+                <div class="cards-container">
+                    <img src="./img/cambios.png" alt="Icono cambios">
+                    <h3>Cambios y devoluciones</h3>
+                    <p>Tenes derecho a realizar una devolución en el plazo de diez (10) días corridos, a partir de la fecha de entrega. ¡El primero es sin cargo!</p>
+                 </div>
+                 <div class="cards-container">
+                    <img src="./img/envios.webp" alt="Icono de envíos">
+                    <h3>Envío Express</h3>
+                    <p>Los pedidos se despachan todos los dias desde nuestro local, y llegan en menos de 48hs. </p>
+                  </div>
+                  <div class="cards-container">
+                    <img src="./img/tarjetas.png" alt="Icono de pago">
+                    <h3>Pagos</h3>
+                    <p>12 cuotas sin interés a partir de $20.000
+                        Visa, Master y Amex de todos los bancos.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="info-contacto">
+                <div class="contact-inf"> 
+                    <img src="./img/mail.png" alt="icono-mail">
+                    <p>Rlindumentaria@gmail.com</p>
+
+                 </div>
+                 <div class="contact-inf">
+                    <img src="./img/ubicación.png" alt="icono-ubi">
+                    <p>Av. Corrientes 3052, Buenos Aires</p>
+                 </div>
+                 <div class="contact-inf">
+                    <img src="./img/telefono.png" alt="icono-tel">
+                    <p>3513392243</p>
+                </div>
+
+              </div>
+              <div class="mapa">
+                <img src="./img/Mapa.jpeg" alt="Mapa">
+            </div>
+
+        </section>
     </main>
+    <footer>
+        <div>
+            <ul class="footer-link">
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Redes sociales</a></li>
+                <li><a href="#">Envíos y devoluciones</a></li>
+
+            </ul>
+        </div>
+        <p><span>Indumentaria Deportiva🏋️‍♂️</span></p>
+        
+    </footer>
 </body>
 </html>
