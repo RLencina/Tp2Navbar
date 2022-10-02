@@ -90,12 +90,13 @@
     }
 }
 @media (max-width:576px) {
+    
  
     #info-p {
-        padding: 80px 99px;
+        padding: 40px 99px;
     }
     .info-pers p {
-        padding: 80px 95px 80px 95px;
+        padding: 50px 95px 80px 95px;
     }
     #info h2 {
         width: 80%;
